@@ -1,0 +1,61 @@
+.top-bar {
+  background: $black;
+  color: white;
+
+    p {
+      color: white;
+    }
+
+    a {
+      color: white;
+      &:hover {
+        color: $light-purple;
+      }
+    }
+  .top-cta {
+    background-color: $purple;
+    border: 2px solid $light-purple;
+    a {
+      color: white;
+      font-weight: 700;
+    }
+
+    &:hover {
+      background: $light-purple;
+      border: 2px solid $purple;
+      a {
+        color: $purple;
+      }
+    }
+  }
+
+}
+.main-nav {
+  background: linear-gradient(
+                  to right,
+                  $purple 0%,
+                  $purple 30%,
+                  white 30%,
+                  white 100%
+  );
+  .logo {
+    width: 150px;
+  }
+    .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: $black;
+            font-weight: 400;
+            &:hover {
+            color: $light-purple;
+            }
+          }
+        }
+      .active {
+        .nav-link {
+          color: $light-purple;
+          font-weight: 700;
+        }
+      }
+    }
+}
