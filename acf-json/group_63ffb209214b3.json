@@ -1,7 +1,28 @@
 {
     "key": "group_63ffb209214b3",
     "title": "Footer Options",
-    "fields": [],
+    "fields": [
+        {
+            "key": "field_6401054cbf0ef",
+            "label": "",
+            "name": "",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
     "location": [
         [
             {
@@ -20,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1677702249
+    "modified": 1677788497
 }

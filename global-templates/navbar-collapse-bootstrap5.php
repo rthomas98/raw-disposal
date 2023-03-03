@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <p class="m-0"><?php the_sub_field( 'address' ); ?></a></p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-2">
-                        <p class="m-0"><a href="mailto:0123456789"><?php the_sub_field( 'email' ); ?></a></p>
+                        <p class="m-0"><a href="mailto:<?php the_sub_field( 'email' ); ?>"><?php the_sub_field( 'email' ); ?></a></p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-2">
                         <p class="m-0"><?php the_sub_field( 'hours' ); ?></p>

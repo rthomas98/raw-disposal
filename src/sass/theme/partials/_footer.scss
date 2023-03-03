@@ -1,0 +1,49 @@
+.footer {
+  background-color: $black;
+  color: white;
+
+  h4 {
+    color: $mid-purple;
+  }
+  a {
+    color: $light-purple;
+
+    &:hover {
+      color: $mid-purple;
+    }
+  }
+  .menu-item {
+    list-style: none;
+    margin-bottom: 10px;
+
+    a {
+      color: white;
+
+        &:hover {
+            color: $mid-purple;
+        }
+    }
+  }
+  .newsletter {
+    background-color: $mid-black;
+
+    h3 {
+      color: $mid-purple;
+    }
+  }
+}
+.copyright {
+  background-color: $mid-black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+
+  a {
+    color: $mid-purple;
+
+    &:hover {
+      color: $light-purple;
+    }
+  }
+
+}

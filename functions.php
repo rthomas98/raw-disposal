@@ -78,7 +78,6 @@ function understrap_default_bootstrap_version() {
 add_filter( 'theme_mod_understrap_bootstrap_version', 'understrap_default_bootstrap_version', 20 );
 
 
-
 /**
  * Loads javascript for showing customizer warning dialog.
  */
@@ -119,3 +118,17 @@ if( function_exists('acf_add_options_page') ) {
     ));
 
 }
+
+/**
+ * Menus
+ */
+
+function understrap_child_register_menus() {
+    register_nav_menus(
+        array(
+            'footer-menu-one' => __( 'Footer Menu One', 'understrap-child' ),
+            'footer-menu-two' => __( 'Footer Menu Two', 'understrap-child' )
+        )
+    );
+}
+add_action( 'init', 'understrap_child_register_menus' );

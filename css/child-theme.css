@@ -15465,4 +15465,47 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-weight: 700;
 }
 
+.footer {
+  background-color: #011A21;
+  color: white;
+}
+.footer h4, .footer .h4 {
+  color: #A06CD5;
+}
+.footer a {
+  color: #E2CFEA;
+}
+.footer a:hover {
+  color: #A06CD5;
+}
+.footer .menu-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer .menu-item a {
+  color: white;
+}
+.footer .menu-item a:hover {
+  color: #A06CD5;
+}
+.footer .newsletter {
+  background-color: #102B3F;
+}
+.footer .newsletter h3, .footer .newsletter .h3 {
+  color: #A06CD5;
+}
+
+.copyright {
+  background-color: #102B3F;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.copyright a {
+  color: #A06CD5;
+}
+.copyright a:hover {
+  color: #E2CFEA;
+}
+
 /*# sourceMappingURL=child-theme.css.map */
