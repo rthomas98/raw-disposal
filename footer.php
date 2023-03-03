@@ -17,27 +17,31 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container">
         <div class="row mb-4 p-4 newsletter d-flex align-items-center">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                <h3>Signup For Our Newsletter</h3>
-                <p>Sign up to get latest articles and deals</p>
+                <h3><?php the_field( 'newsletter_title', 'option' ); ?></h3>
+                <p><?php the_field( 'newsletter_content', 'option' ); ?></p>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-
+                <?php the_field( 'newsletter_form', 'option' ); ?>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                <?php $footer_logo = get_field( 'footer_logo', 'option' ); ?>
+                <?php $size = 'full'; ?>
+                <?php if ( $footer_logo ) : ?>
+                    <?php echo wp_get_attachment_image( $footer_logo, $size, false, array('class' => 'logo mb-4') ); ?>
+                <?php endif; ?>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae sapien suscipit, fermentum libero vel
+                    <?php the_field( 'footer_content', 'option' ); ?>
                 </p>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                 <h4>Contact Us</h4>
-                <p><strong>Email:</strong> <a href="#">info@rawdisposal.com</a></p>
-                <p><strong>Phone Number:</strong> <a href="#">504-877-2170</a></p>
+                <p><strong>Email:</strong> <a href="mailto:<?php the_field( 'footer_email', 'option' ); ?>"><?php the_field( 'footer_email', 'option' ); ?></a></p>
+                <p><strong>Phone Number:</strong> <a href="#"><?php the_field( 'footer_phone_number', 'option' ); ?></a></p>
                 <h4>Headquarters</h4>
                 <p>
-                    5821 Lot B River Road<br>
-                    Avondale, LA 70094
+                    <?php the_field( 'footer_address', 'option' ); ?>
                 </p>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
@@ -74,7 +78,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container">
         <div class="row">
             <div class="col">
-                &copy <?php echo date( 'Y' ); ?> <?php echo get_bloginfo( 'name' ); ?> | Designed and Developed by <a href="">Empuls3</a> | <a href="">Privacy Policy</a> | <a href="">Term Of Use</a>
+                &copy <?php echo date( 'Y' ); ?> <?php echo get_bloginfo( 'name' ); ?> <?php the_field( 'copyright_content', 'option' ); ?>
             </div>
         </div>
     </div>

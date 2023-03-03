@@ -15469,6 +15469,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background-color: #011A21;
   color: white;
 }
+.footer .logo {
+  width: 120px;
+}
 .footer h4, .footer .h4 {
   color: #A06CD5;
 }
@@ -15493,6 +15496,32 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .footer .newsletter h3, .footer .newsletter .h3 {
   color: #A06CD5;
+}
+.footer .newsletter form.fluent_form_2 .wpf_has_custom_css.ff-btn-submit {
+  background-color: #A06CD5;
+  border-color: #A06CD5;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0;
+  border: 2px solid #E2CFEA;
+  min-width: 100%;
+}
+.footer .newsletter .fluentform .ff-el-form-control {
+  background-clip: padding-box;
+  background-color: #011A21;
+  background-image: none;
+  border: 2px solid white;
+  border-radius: 0;
+  color: white;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  max-width: 100%;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
 }
 
 .copyright {
