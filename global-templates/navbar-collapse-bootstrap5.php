@@ -19,16 +19,16 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row d-flex align-items-center">
                 <?php while ( have_rows( 'top_bar', 'option' ) ) : the_row(); ?>
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-2">
-                        <p class="m-0"><?php the_sub_field( 'address' ); ?></a></p>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-2">
+                        <p class="m-0"><i class="fa-sharp fa-regular fa-building"></i> <?php the_sub_field( 'address' ); ?></a></p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-2">
-                        <p class="m-0"><a href="mailto:<?php the_sub_field( 'email' ); ?>"><?php the_sub_field( 'email' ); ?></a></p>
+                        <p class="m-0"><i class="fa-sharp fa-regular fa-envelope"></i> <a href="mailto:<?php the_sub_field( 'email' ); ?>"><?php the_sub_field( 'email' ); ?></a></p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-2">
-                        <p class="m-0"><?php the_sub_field( 'hours' ); ?></p>
+                        <p class="m-0"><i class="fa-regular fa-clock"></i> <?php the_sub_field( 'hours' ); ?></p>
                     </div>
-                    <div class="top-cta col-12 col-sm-12 col-md-12 col-lg-3 p-2 text-center text-uppercase">
+                    <div class="top-cta col-12 col-sm-12 col-md-12 col-lg-2 p-2 text-center text-uppercase">
                             <a href="<?php the_sub_field( 'cta_link' ); ?>" class="m-0"> <?php the_sub_field( 'cta_label' ); ?></a>
                     </div>
                 <?php endwhile; ?>

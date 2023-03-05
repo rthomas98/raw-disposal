@@ -92,6 +92,13 @@ function understrap_child_customize_controls_js() {
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
 
+// Enqueue Font Awesome script
+function enqueue_font_awesome_script() {
+    wp_enqueue_script( 'font-awesome', 'https://kit.fontawesome.com/461bf8d22b.js', array(), null, true );
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome_script' );
+
+
 /**
  * ACF Options Page
  */
