@@ -8,4 +8,3 @@ if ( get_field( 'blocks' ) ) :
 
     endwhile;
 endif;
-?>

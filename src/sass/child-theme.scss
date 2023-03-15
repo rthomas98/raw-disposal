@@ -8,10 +8,30 @@
 @import "assets/underscores";                            // <------- Underscores media styles
 
 // Any additional imported files //
-@import "theme/child_theme";                             // <------- Add your styles into this file
+@import "theme/child_theme";                        // <------- Add your styles into this file
 @import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
 @import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
 @import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
 
 @import "theme/partials/nav";
 @import "theme/partials/footer";
+@import "theme/partials/banner_with_form";
+@import "theme/partials/call_cta";
+@import "theme/partials/call_cta_with_image";
+@import "theme/partials/contact_block";
+@import "theme/partials/content_image_left";
+@import "theme/partials/content_image_right";
+@import "theme/partials/four_tiles";
+@import "theme/partials/frequently_asked_questions";
+@import "theme/partials/header_three_images";
+@import "theme/partials/hero_with_three_images";
+@import "theme/partials/home_banner";
+@import "theme/partials/home_services_with_cta";
+@import "theme/partials/how_it_works";
+@import "theme/partials/purple_background_image_right";
+@import "theme/partials/services_block";
+@import "theme/partials/simple_hero";
+@import "theme/partials/team_block";
+@import "theme/partials/testimonials";
+@import "theme/partials/three_box_section";
+@import "theme/partials/three_purple_tabs_blocks";

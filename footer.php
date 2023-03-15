@@ -40,9 +40,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <p><strong><i class="fa-sharp fa-regular fa-envelopes"></i> Email:</strong> <a href="mailto:<?php the_field( 'footer_email', 'option' ); ?>"><?php the_field( 'footer_email', 'option' ); ?></a></p>
                 <p><strong><i class="fa-regular fa-phone-office"></i> Phone Number:</strong> <a href="#"><?php the_field( 'footer_phone_number', 'option' ); ?></a></p>
                 <h4>Headquarters</h4>
-                <p>
+                <address>
                     <i class="fa-sharp fa-regular fa-building"></i> <?php the_field( 'footer_address', 'option' ); ?>
-                </p>
+                </address>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                 <h4>Our Services</h4>
@@ -59,6 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     ?>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                <h4></h4>
                     <?php
                     wp_nav_menu(
                         array(
