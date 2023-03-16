@@ -53,10 +53,6 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/hero-with-three-images.php' );
         endif;
 
-        if ( get_row_layout() == 'home_banner' ):
-            include( get_stylesheet_directory() . '/acf-blocks/home-banner.php' );
-        endif;
-
         if ( get_row_layout() == 'home_services_with_cta' ):
             include( get_stylesheet_directory() . '/acf-blocks/home-services-with-cta.php' );
         endif;
@@ -95,3 +91,4 @@ if ( get_field( 'blocks' ) ) :
 
     endwhile;
 endif;
+?>
