@@ -1557,8 +1557,8 @@
                 },
                 "layout_6411ef4d57cbb": {
                     "key": "layout_6411ef4d57cbb",
-                    "name": "frequently_asked_questions_",
-                    "label": "Frequently Asked Questions ",
+                    "name": "frequently_asked_questions",
+                    "label": "Frequently Asked Questions",
                     "display": "block",
                     "sub_fields": [
                         {
@@ -2966,5 +2966,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1678897411
+    "modified": 1678907210
 }
