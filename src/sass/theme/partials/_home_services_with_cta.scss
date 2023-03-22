@@ -1,0 +1,36 @@
+.home-services-cta {
+
+  background: linear-gradient(to bottom, $purple 70%, white 30%);
+
+  .lead {
+    color: $light-purple;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  .btn-secondary {
+    color: $black;
+    border-color: white;
+    border-radius: 0;
+    text-transform: uppercase;
+  }
+
+  .services-slots {
+    background-color: white;
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: $black;
+      font-size: 18px;
+    }
+  }
+}

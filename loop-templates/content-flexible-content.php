@@ -25,10 +25,6 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/contact-block.php' );
         endif;
 
-        if ( get_row_layout() == 'content_image_left' ):
-            include( get_stylesheet_directory() . '/acf-blocks/content-image-left.php' );
-        endif;
-
         if ( get_row_layout() == 'content_image_right' ):
             include( get_stylesheet_directory() . '/acf-blocks/content-image-right.php' );
         endif;

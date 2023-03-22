@@ -1,0 +1,44 @@
+.home-banner {
+  height: 100%;
+  position: relative;
+
+  h1 {
+    color: white;
+  }
+  .lead {
+    color: $purple;
+    position: relative;
+
+     :before {
+       display: inline-block;
+       content: "";
+       border-top: .3rem solid black;
+       width: 4rem;
+       margin: 0 1rem;
+       transform: translateY(-1rem);
+     }
+
+  }
+  p {
+    color: white;
+  }
+
+  .home-tabs {
+    background-color: white;
+
+    i {
+      font-size: 50px;
+      color: $purple;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: $black;
+      font-size: 24px;
+    }
+
+    p {
+      color: $black;
+    }
+  }
+}

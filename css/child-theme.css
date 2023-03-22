@@ -15537,4 +15537,79 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #E2CFEA;
 }
 
+.content-img-left img {
+  outline: 2px solid white;
+  outline-offset: -10px;
+}
+.content-img-left .lead {
+  color: #5C2C86;
+}
+
+.home-banner {
+  height: 100%;
+  position: relative;
+}
+.home-banner h1, .home-banner .h1 {
+  color: white;
+}
+.home-banner .lead {
+  color: #5C2C86;
+  position: relative;
+}
+.home-banner .lead :before {
+  display: inline-block;
+  content: "";
+  border-top: 0.3rem solid black;
+  width: 4rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+.home-banner p {
+  color: white;
+}
+.home-banner .home-tabs {
+  background-color: white;
+}
+.home-banner .home-tabs i {
+  font-size: 50px;
+  color: #5C2C86;
+  margin-bottom: 20px;
+}
+.home-banner .home-tabs h2, .home-banner .home-tabs .h2 {
+  color: #011A21;
+  font-size: 24px;
+}
+.home-banner .home-tabs p {
+  color: #011A21;
+}
+
+.home-services-cta {
+  background: linear-gradient(to bottom, #5C2C86 70%, white 30%);
+}
+.home-services-cta .lead {
+  color: #E2CFEA;
+}
+.home-services-cta h2, .home-services-cta .h2 {
+  color: white;
+}
+.home-services-cta p {
+  color: white;
+}
+.home-services-cta .btn-secondary {
+  color: #011A21;
+  border-color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.home-services-cta .services-slots {
+  background-color: white;
+}
+.home-services-cta .services-slots img {
+  margin-bottom: 20px;
+}
+.home-services-cta .services-slots h3, .home-services-cta .services-slots .h3 {
+  color: #011A21;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=child-theme.css.map */

@@ -110,8 +110,8 @@
                         },
                         {
                             "key": "field_64079e75d9b38",
-                            "label": "Blocks",
-                            "name": "blocks",
+                            "label": "Tab Blocks",
+                            "name": "tab_blocks",
                             "aria-label": "",
                             "type": "repeater",
                             "instructions": "",
@@ -2942,7 +2942,7 @@
             },
             "min": "",
             "max": "",
-            "button_label": "Add Row"
+            "button_label": "Add Block"
         }
     ],
     "location": [
@@ -2966,5 +2966,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1678907210
+    "modified": 1679350761
 }

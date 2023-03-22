@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
 </div>
 
-<nav id="main-nav" class="main-nav navbar navbar-expand-md navbar-dark" aria-labelledby="main-nav-label">
+<nav id="main-nav" class="sticky-top main-nav navbar navbar-expand-md navbar-dark" aria-labelledby="main-nav-label">
 
 	<h2 id="main-nav-label" class="screen-reader-text">
 		<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
