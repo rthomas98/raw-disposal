@@ -15537,12 +15537,66 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #E2CFEA;
 }
 
+.call-cta {
+  background-color: #A06CD5;
+}
+.call-cta i {
+  color: #fff;
+  background-color: #5C2C86;
+  padding: 30px;
+  font-size: 30px;
+}
+.call-cta .lead {
+  color: #5C2C86;
+}
+.call-cta h2, .call-cta .h2 {
+  color: #fff;
+}
+.call-cta p {
+  color: #fff;
+}
+.call-cta .btn-primary {
+  color: white;
+  border-color: #fff;
+  border-radius: 0;
+}
+.call-cta .btn-primary:hover {
+  background-color: #E2CFEA;
+  color: #5C2C86;
+}
+
 .content-img-left img {
   outline: 2px solid white;
   outline-offset: -10px;
 }
 .content-img-left .lead {
   color: #5C2C86;
+}
+
+.four-tiles {
+  position: relative;
+}
+.four-tiles .tile-p {
+  background-color: #5C2C86;
+  min-height: 480px;
+}
+@media (max-width: 991.98px) {
+  .four-tiles .tile-p {
+    min-height: auto;
+  }
+}
+.four-tiles .tile-p i {
+  color: #E2CFEA;
+  font-size: 180px;
+  opacity: 0.2;
+  position: absolute;
+}
+.four-tiles .tile-p h2, .four-tiles .tile-p .h2 {
+  color: white;
+}
+.four-tiles .tile-p p {
+  color: white;
+  width: 80%;
 }
 
 .home-banner {
@@ -15610,6 +15664,11 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .home-services-cta .services-slots h3, .home-services-cta .services-slots .h3 {
   color: #011A21;
   font-size: 18px;
+}
+
+.three-box img {
+  outline: 2px solid white;
+  outline-offset: -10px;
 }
 
 /*# sourceMappingURL=child-theme.css.map */

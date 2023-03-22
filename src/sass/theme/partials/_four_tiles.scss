@@ -1,0 +1,25 @@
+.four-tiles {
+  position: relative;
+  .tile-p {
+    background-color: $purple;
+    min-height: 480px;
+
+    @include media-breakpoint-down(lg) {
+      min-height: auto;
+    }
+
+    i {
+      color: $light-purple;
+      font-size: 180px;
+      opacity: 0.2;
+      position: absolute;
+    }
+    h2 {
+      color: white;
+    }
+    p {
+      color: white;
+      width: 80%;
+    }
+  }
+}

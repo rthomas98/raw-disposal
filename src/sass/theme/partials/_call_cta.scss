@@ -1,0 +1,30 @@
+.call-cta {
+  background-color: $mid-purple;
+
+  i {
+    color: $white;
+    background-color: $purple;
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  .lead {
+    color: $purple;
+  }
+  h2 {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+
+  .btn-primary {
+    color: white;
+    border-color: $white;
+    border-radius: 0;
+    &:hover {
+      background-color: $light-purple;
+      color: $purple;
+    }
+  }
+}
