@@ -1,0 +1,18 @@
+.three-img-header {
+  background-color: $purple;
+
+  .lead {
+    color: $mid-purple;
+    margin: 0;
+  }
+  h1 {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+
+  img {
+    border: 3px solid $white;
+  }
+}

@@ -15666,9 +15666,73 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   font-size: 18px;
 }
 
+.how-it-works .lead {
+  color: #A06CD5;
+  margin-bottom: 0;
+}
+.how-it-works img {
+  outline: 2px solid white;
+  outline-offset: -10px;
+  margin-bottom: 30px;
+}
+.how-it-works h3, .how-it-works .h3 {
+  font-size: 20px;
+}
+.how-it-works .btn-primary {
+  color: white;
+  border-color: #E2CFEA;
+  border-radius: 0;
+}
+.how-it-works .btn-primary:hover {
+  background-color: #E2CFEA;
+  color: #5C2C86;
+  border-color: #5C2C86;
+}
+
+.purple-background-img-right {
+  background: linear-gradient(90deg, #A06CD5 80%, #fff 20%);
+}
+.purple-background-img-right .lead {
+  color: #E2CFEA;
+}
+.purple-background-img-right h2, .purple-background-img-right .h2 {
+  color: #fff;
+}
+.purple-background-img-right p {
+  color: #fff;
+}
+
+.team {
+  background-color: white;
+}
+.team .lead {
+  color: #A06CD5;
+  margin-bottom: 0;
+}
+.team h2, .team .h2 {
+  color: #011A21;
+}
+
 .three-box img {
   outline: 2px solid white;
   outline-offset: -10px;
+}
+
+.three-img-header {
+  background-color: #5C2C86;
+}
+.three-img-header .lead {
+  color: #A06CD5;
+  margin: 0;
+}
+.three-img-header h1, .three-img-header .h1 {
+  color: #fff;
+}
+.three-img-header p {
+  color: #fff;
+}
+.three-img-header img {
+  border: 3px solid #fff;
 }
 
 /*# sourceMappingURL=child-theme.css.map */

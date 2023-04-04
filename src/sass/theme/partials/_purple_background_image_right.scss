@@ -1,0 +1,15 @@
+.purple-background-img-right {
+  background: linear-gradient(90deg, $mid-purple 80%, $white 20%);
+
+  .lead {
+    color: $light-purple;
+  }
+
+  h2 {
+    color: $white;
+  }
+
+  p {
+    color: $white;
+  }
+}

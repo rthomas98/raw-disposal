@@ -9,6 +9,10 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/home-banner.php' );
         endif;
 
+        if ( get_row_layout() == 'three_image_header' ):
+            include( get_stylesheet_directory() . '/acf-blocks/three-img-header.php' );
+        endif;
+
         if ( get_row_layout() == 'banner_with_form' ):
             include( get_stylesheet_directory() . '/acf-blocks/banner-with-form.php' );
         endif;

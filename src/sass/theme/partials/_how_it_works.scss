@@ -1,0 +1,28 @@
+.how-it-works {
+
+  .lead {
+    color: $mid-purple;
+    margin-bottom: 0;
+  }
+
+  img {
+    outline: 2px solid white;
+    outline-offset: -10px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .btn-primary {
+    color: white;
+    border-color: $light-purple;
+    border-radius: 0;
+    &:hover {
+      background-color: $light-purple;
+      color: $purple;
+      border-color: $purple;
+    }
+  }
+}
