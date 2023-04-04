@@ -24,7 +24,7 @@
         <?php if ( have_rows( 'box' ) ) : ?>
         <div class="row services-slots mt-4">
             <?php while ( have_rows( 'box' ) ) : the_row(); ?>
-                <div class="col-sm-12 col-md-4 col-lg-3 p-4">
+                <div class="col-sm-12 col-md-4 col-lg-4 p-4 text-center">
                     <?php $image = get_sub_field( 'image' ); ?>
                     <?php $size = 'full'; ?>
                     <?php if ( $image ) : ?>
