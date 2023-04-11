@@ -6743,6 +6743,15 @@
 	  }
 	})();
 
+	// Add your custom JS here.
+
+	document.addEventListener('click', function (e) {
+	  // Hamburger menu
+	  if (e.target.classList.contains('hamburger-toggle')) {
+	    e.target.children[0].classList.toggle('active');
+	  }
+	});
+
 	exports.Alert = alert;
 	exports.Button = button;
 	exports.Carousel = carousel;
