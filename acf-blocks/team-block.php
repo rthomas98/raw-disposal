@@ -12,26 +12,21 @@
             </p>
         </div>
     </div>
+    <div class="row text-center">
         <?php if ( have_rows( 'member' ) ) : ?>
-        <div class="row">
             <?php while ( have_rows( 'member' ) ) : the_row(); ?>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="team">
-                    <div class="team-avatar">
+                <div class="col-xl-3 col-sm-6 mb-5">
+                    <div class="member-block bg-white rounded shadow-sm py-5 px-4">
                         <?php $member_image = get_sub_field( 'member_image' ); ?>
                         <?php $size = 'full'; ?>
                         <?php if ( $member_image ) : ?>
-                            <?php echo wp_get_attachment_image( $member_image, $size ); ?>
+                            <?php echo wp_get_attachment_image( $member_image, $size, "", array( "class" => "img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" ) ); ?>
                         <?php endif; ?>
-                    </div>
-                    <div class="team-info p-4">
                         <h5 class="mb-0"><?php the_sub_field( 'member_name' ); ?></h5>
-                        <span class="team-position"> <?php the_sub_field( 'member_position' ); ?></span>
+                        <span class="small text-uppercase text-muted"><?php the_sub_field( 'member_position' ); ?></span>
                     </div>
                 </div>
-            </div>
             <?php endwhile; ?>
-        </div>
         <?php else : ?>
             <?php // No rows found ?>
         <?php endif; ?>

@@ -1,0 +1,23 @@
+.banner-with-form {
+   background-color: $purple;
+
+  h2 {
+    color: $light-purple;
+  }
+  .lead {
+    color: $white;
+  }
+
+  .fluentform .ff-el-input--label label {
+    color: $white;
+  }
+
+  form.fluent_form_3 .ff-btn-submit {
+    background-color: $light-purple;
+    color: $purple;
+  }
+
+  p {
+    color: $white;
+  }
+}

@@ -14990,6 +14990,23 @@ a {
   text-decoration: none;
 }
 
+.nav-previous, .nav-next {
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.nav-previous a, .nav-next a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-previous a:hover, .nav-next a:hover {
+  color: #5C2C86;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;
@@ -15537,6 +15554,26 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   color: #E2CFEA;
 }
 
+.banner-with-form {
+  background-color: #5C2C86;
+}
+.banner-with-form h2, .banner-with-form .h2 {
+  color: #E2CFEA;
+}
+.banner-with-form .lead {
+  color: #fff;
+}
+.banner-with-form .fluentform .ff-el-input--label label {
+  color: #fff;
+}
+.banner-with-form form.fluent_form_3 .ff-btn-submit {
+  background-color: #E2CFEA;
+  color: #5C2C86;
+}
+.banner-with-form p {
+  color: #fff;
+}
+
 .call-cta {
   background-color: #A06CD5;
 }
@@ -15737,6 +15774,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .team .team-info p {
   color: white;
 }
+.team .team-info .member-block img {
+  height: 150px !important;
+  width: 150px !important;
+  -o-object-fit: cover !important;
+  object-fit: cover !important;
+}
 
 .three-box img {
   outline: 2px solid white;
@@ -15759,6 +15802,35 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 .three-img-header img {
   border: 3px solid #fff;
+}
+
+.product-title {
+  background-color: #5C2C86;
+}
+.product-title h1, .product-title .h1 {
+  color: #E2CFEA;
+}
+.product-title .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+.product-title a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.product-title a:hover {
+  color: #E2CFEA;
+}
+.product-title .breadcrumb-item.active {
+  color: #A06CD5;
+}
+
+.product-cta {
+  background-color: #E2CFEA;
+}
+.product-cta form.fluent_form_3 .ff-btn-submit {
+  background-color: #5C2C86;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=child-theme.css.map */

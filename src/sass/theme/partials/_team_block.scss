@@ -19,6 +19,15 @@
   p {
     color: white;
   }
+
+  .member-block {
+
+    img {
+      height: 150px !important;
+      width: 150px !important;
+      object-fit: cover !important;
+    }
+  }
 }
 
 }
