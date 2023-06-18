@@ -36,7 +36,7 @@ defined( 'ABSPATH' ) || exit;
                             <div class="carousel-inner">
                                 <?php foreach ( $product_images_images as $index => $product_images_image ): ?>
                                     <div class="carousel-item <?php if ($index == 0) echo 'active'; ?>" data-bs-interval="10000">
-                                        <img src="<?php echo esc_url( $product_images_image['sizes']['custom-product'] ); ?>" class="d-block w-100" alt="<?php echo esc_attr( $product_images_image['alt'] ); ?>" />
+                                        <img src="<?php echo esc_url( $product_images_image['url'] ); ?>" class="d-block w-100" alt="<?php echo esc_attr( $product_images_image['alt'] ); ?>" />
 
                                         <div class="carousel-caption d-none d-md-block">
                                             <p><?php echo esc_html( $product_images_image['caption'] ); ?></p>

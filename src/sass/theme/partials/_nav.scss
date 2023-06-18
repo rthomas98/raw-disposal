@@ -2,6 +2,10 @@
   background: $black;
   color: white;
 
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+
     p {
       color: white;
     }
@@ -38,6 +42,17 @@
                   white 30%,
                   white 100%
   );
+
+  @include media-breakpoint-down(lg) {
+    background: $purple;
+
+    .nav-link {
+      color: white !important;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+
   .logo {
     width: 150px;
   }
@@ -58,4 +73,15 @@
         }
       }
     }
+
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: $purple;
+    background-color: $light-purple;
+    border: var(--bs-border-width) solid $light-purple;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+  }
 }

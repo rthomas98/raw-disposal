@@ -32,6 +32,15 @@
                     <?php endif; ?>
                     <h3><?php the_sub_field( 'title' ); ?></h3>
                     <?php the_sub_field( 'content' ); ?>
+
+
+                    <?php $button_link = get_sub_field( 'button_link' ); ?>
+                    <?php if ( $button_link ) : ?>
+                       <p> <a class="btn btn-secondary btn-lg btn-block mt-5" href="<?php echo esc_url( $button_link); ?>">
+                               <?php the_sub_field( 'button_label' ); ?>
+                           </a>
+                       </p>
+                    <?php endif; ?>
                 </div>
             <?php endwhile; ?>
         </div>

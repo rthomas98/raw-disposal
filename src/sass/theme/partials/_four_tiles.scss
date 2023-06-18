@@ -1,8 +1,8 @@
 .four-tiles {
   position: relative;
   .tile-p {
-    background-color: $purple;
-    min-height: 480px;
+    background-color: $mid-purple;
+    min-height: 420px;
 
     @include media-breakpoint-down(lg) {
       min-height: auto;
