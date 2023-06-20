@@ -38,6 +38,10 @@
     <div class="row">
         <div class="col text-center">
 
+            <?php $button_link = get_sub_field( 'button_link' ); ?>
+            <?php if ( $button_link ) : ?>
+                <a class="btn btn-secondary btn-lg" href="<?php echo esc_url( $button_link); ?>"><?php the_sub_field( 'button_label' ); ?></a>
+            <?php endif; ?>
         </div>
     </div>
 

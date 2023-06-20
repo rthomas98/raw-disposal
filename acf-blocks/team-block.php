@@ -20,7 +20,7 @@
                         <?php $member_image = get_sub_field( 'member_image' ); ?>
                         <?php $size = 'full'; ?>
                         <?php if ( $member_image ) : ?>
-                            <?php echo wp_get_attachment_image( $member_image, $size, "", array( "class" => "img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" ) ); ?>
+                            <?php echo wp_get_attachment_image( $member_image, $size, "", array( "class" => "img-fluid rounded-circle mb-3 img-thumbnail shadow-sm", "style" => "width:150px;height:150px;object-fit:cover;" ) ); ?>
                         <?php endif; ?>
                         <h5 class="mb-0"><?php the_sub_field( 'member_name' ); ?></h5>
                         <span class="small text-uppercase text-muted"><?php the_sub_field( 'member_position' ); ?></span>

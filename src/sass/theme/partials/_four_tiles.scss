@@ -2,6 +2,7 @@
   position: relative;
   .tile-p {
     background-color: $mid-purple;
+    height: auto;
     min-height: 420px;
 
     @include media-breakpoint-down(lg) {
@@ -20,6 +21,18 @@
     p {
       color: white;
       width: 80%;
+    }
+  }
+  img {
+    height: 420px;
+    min-height: 420px;
+    width: 100%;
+    object-fit: cover;
+
+    @include media-breakpoint-down(lg) {
+      height: auto;
+      min-height: auto;
+      width: 100%;
     }
   }
 }

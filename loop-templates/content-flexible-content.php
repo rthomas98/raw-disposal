@@ -89,6 +89,10 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/three-purple-tabs-blocks.php' );
         endif;
 
+        if ( get_row_layout() == 'booking_form' ):
+            include( get_stylesheet_directory() . '/acf-blocks/booking-form.php' );
+        endif;
+
     endwhile;
 endif;
 ?>

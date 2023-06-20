@@ -3186,6 +3186,36 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_6491d989d5c51": {
+                    "key": "layout_6491d989d5c51",
+                    "name": "booking_form",
+                    "label": "Booking Form",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6491d994d5c53",
+                            "label": "Form",
+                            "name": "form",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -3214,5 +3244,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687021847
+    "modified": 1687280033
 }

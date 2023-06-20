@@ -18,7 +18,7 @@
                 <?php $image = get_sub_field( 'image' ); ?>
                 <?php $size = 'full'; ?>
                 <?php if ( $image ) : ?>
-                    <?php echo wp_get_attachment_image( $image, $size ); ?>
+                    <?php echo wp_get_attachment_image( $image, $size,"", array( "class" => "", "style" => "height:416px;object-fit:cover;" ) ); ?>
                 <?php endif; ?>
                 <h3><?php the_sub_field( 'title' ); ?></h3>
                 <p><?php the_sub_field( 'content' ); ?></p>
