@@ -65,7 +65,7 @@ defined( 'ABSPATH' ) || exit;
                     <?php the_field( 'short_description' ); ?>
 
                     <p class="mt-5">
-                        <a class="btn btn-secondary btn-lg">
+                        <a href="<?php echo site_url('/frequently-asked-questions'); ?>" class="btn btn-secondary btn-lg">
                             Have More Questions?
                         </a>
                     </p>
